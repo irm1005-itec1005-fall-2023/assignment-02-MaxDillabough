@@ -1,19 +1,174 @@
-/*
- * Assignment 02
- * CSS FILE
- */
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #fb8500;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+main {
+background: rgb(255,190,0);
+background: linear-gradient(0deg, rgba(255,190,0,1) 0%, rgba(255,245,216,1) 100%);
+padding: 1%;
+margin: 1%;
 }
 
-h1 {
-  font-size: 2rem;
-  font-weight: bold;
+.part1 {
+display: grid;
+grid-template-columns:1fr 1fr 1fr ;
+grid-template-rows: 1fr ;
+container: grid;
+background-color: #fdf9ca;
+border-radius: 2%;
+border-style: solid;
+border-color: #b2950451;
+margin: 5%;
+max-width: 125rem;
+}
+
+
+.Facts {
+padding: 3%;
+grid-column-start: 1;
+grid-column-end: 4;
+grid-row-start: 1;
+grid-row-end: 1;
+}
+
+.cult {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+.nut {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+.util {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+.Facts {
+  background-color: #fdfad3;
+  border-radius: 10%;
+  margin: 2%;
+  padding: 1%;
+  border-style:solid;
+  border-color: rgba(0, 0, 0, 0.108);
+  }
+
+.cult {
+background-color: #fdfad3;
+border-radius: 10%;
+margin: 5%;
+padding: 4%;
+text-align: center;
+border-style:solid;
+border-color: rgba(0, 0, 0, 0.019);
+}
+
+.nut {
+  background-color: #fdfad3;
+  border-radius: 10%;
+  margin: 5%;
+  padding: 4%;
   text-align: center;
-  color: #023047;
+  border-style:solid;
+  border-color: rgba(0, 0, 0, 0.019);
+}
+
+  .util {
+    background-color: #fdfad3;
+    border-radius: 10%;
+    margin: 5%;
+    padding: 4%;
+    text-align: center;
+    border-style:solid;
+    border-color: rgba(0, 0, 0, 0.019);
+    }
+
+  
+    
+  
+  .shop.top {
+text-align: center;
+margin: 0%;
+padding: 1%;
+background-color: #fdf9ca;
+width: 41.%;
+border-style: solid;
+border-color: rgba(0, 0, 0, 0.108);
+border-bottom-color: #fdf9ca;
+}
+
+.small.top {
+  text-align: center;
+  background-color: #fdf9ca;
+  width: 41.%;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.108);
+  border-bottom-color: #fdf9ca;
+  border-top-color: #fdf9ca;
+
+}
+
+.products {
+      display: grid;
+      grid-template-columns:1fr 1fr 1fr;
+      grid-template-rows: 1fr;
+      container: grid;
+      margin: 0%;
+      padding: 0%;
+      background-color: #fdf9ca;
+      border-style: solid;
+      border-bottom-color: rgba(0, 0, 0, 0.108);
+      border-left-color: rgba(0, 0, 0, 0.108);
+      border-right-color: rgba(0, 0, 0, 0.108);
+      border-top-color: rgba(0, 0, 0, 0.108);
+    }
+
+  .barr {
+width: 50%;
+  }    
+  .pile {
+width: 70%;
+  }
+  .nifes {
+width: 40%;
+
+  }
+
+  .bundle {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    margin-left: 15%;
+    padding: 9%;
+  }
+  
+  .barrel {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    margin-left: 15%;
+    padding: 9%;
+  }
+
+  .knifes {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    margin-left: 15%;
+    padding: 9%;
+    
+  }
+
+
+
+.quest {
+  
 }
