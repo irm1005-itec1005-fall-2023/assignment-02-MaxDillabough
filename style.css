@@ -1,8 +1,25 @@
+ 
+
+
+.hero {
+  background-image: url("https://img.freepik.com/premium-vector/seamless-cheese-texture-background-template-your-design-piece-delicious-cheese-vector_685067-50.jpg");
+  height: %;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+
+
+
 main {
-background: rgb(255,190,0);
+background: #ffbe00;
 background: linear-gradient(0deg, rgba(255,190,0,1) 0%, rgba(255,245,216,1) 100%);
 padding: 1%;
 margin: 1%;
+border-radius: 2%;
 }
 
 .part1 {
@@ -124,17 +141,26 @@ border-bottom-color: #fdf9ca;
       border-left-color: rgba(0, 0, 0, 0.108);
       border-right-color: rgba(0, 0, 0, 0.108);
       border-top-color: rgba(0, 0, 0, 0.108);
+      text-align: center;
     }
 
   .barr {
 width: 50%;
+display: block;
+  margin-left: auto;
+  margin-right: auto;
   }    
   .pile {
 width: 70%;
+display: block;
+  margin-left: auto;
+  margin-right: auto;
   }
   .nifes {
 width: 40%;
-
+display: block;
+  margin-left: auto;
+  margin-right: auto;
   }
 
   .bundle {
@@ -162,52 +188,75 @@ width: 40%;
     grid-row-end: 1;
     margin-left: 15%;
     padding: 9%;
-    
   }
 
 
 
 .quest {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
  background-color: #fdf9ca;
  margin: 5%;
  padding: 3%;
+ border-radius: 8%;
+ border-style: dashed;
+ border-color: #b2950451;
 }
 
 .commonQ {
-  grid-column-start: 1;
-  grid-column-end: 1;
-  grid-row-start: 1;
-  grid-row-end: 1;
+  grid-column-start: 1fr;
+  grid-column-end: 1fr;
+  grid-row-start: 1fr;
+  grid-row-end: 1fr;
   margin: 1%;
   padding: 1%;
   background-color: #fffaad;
-  width: 18rem;
+  width: 20rem;
   height: 2rem;
 }
 
 .Q1 {
-  grid-column-start: 1;
-  grid-column-end: 1;
-  grid-row: 2;
+  grid-column-start: 1fr;
+  grid-column-end: 1fr;
+  grid-row: 2fr;
+  margin: 5%;
+  background-color: #fffaad;
 }
 
 .Q2 {
-  grid-column-start: 2;
-  grid-column-end: 2;
-  grid-row: 2;
+  grid-column-start: 2fr;
+  grid-column-end: 2fr;
+  grid-row: 1fr;
+  margin: 5%;
+  background-color: #fffaad;
+
  }
 
  .Q3 {
-  grid-column-start: 1;
-  grid-column-end: 1;
-  grid-row: 3;
+  grid-column-start: 1fr;
+  grid-column-end: 1fr;
+  grid-row: 3fr;
+  margin: 5%;
+  background-color: #fffaad;
+
  }
  
  .Q4 {
-  grid-column-start: 2;
-  grid-column-end: 2;
-  grid-row: 3;
+  grid-column-start: 2fr;
+  grid-column-end: 2fr;
+  grid-row: 3fr;
+  margin: 5%;
+  background-color: #fffaad;
+
  }
+
+ .ask {
+  background-color: #fffaad;
+  text-align: center;
+ }
+
+
+ .login {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+ }
+ 
