@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-ca">
-
+<div class="hero">
 <head>
-  <title>Assignment 02</title>
+  <title>The Cheese Site 2</title>
 
   <meta charset="utf-8" />
 
@@ -15,15 +15,6 @@
   <link rel="stylesheet" href="./style.css" />
 </head>
 
-<head>
-  <title>The Cheese Site</title>
-
-  <meta charset="UTF-8" />
-
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-</head>
 <body>
   <!--
 
@@ -41,13 +32,15 @@ src="images\The cheese shop.jpg"
  alt="the cheese site logo"
   width="150"> 
 
-  <h2>The Cheese Site</h2>
-  <nav><ul>
-    <li><a href="http://127.0.0.1:3000/index.html">Home Cheese</a></li>
-    <li><a href="http://127.0.0.1:3000/indec.html">Cheese Stats</a></li>
-    <li><a href="http://127.0.0.1:3000/idev.html">Cheese Shop</a></li>
-  </ul></nav>
+  <h2 class="title">The Cheese Site</h2>
+  <nav>
+  <div><li><a href="http://127.0.0.1:3000/index.html">Home Cheese</a></li></div>
+   <div><li><a href="http://127.0.0.1:3000/indec.html">Cheese Stats</a></li></div> 
+    <div><li><a href="http://127.0.0.1:3000/idev.html">Cheese Shop</a></li></div>
+  </nav>
 </header>
+
+
 <main>
   <section class="part1">
 <section class="Facts">  <h1>Cheese Facts</h1>
@@ -117,7 +110,7 @@ $54.99 CAD
 
 <section class="barrel">
 Cheese Barrel
-<img class="barr"
+<img class="barr" 
 src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/2015-01-25_Tobermory%2C_Isle_of_Mull_Cheese_Sgriob-ruadh_Farm_-_hu_-_7900.jpg/1200px-2015-01-25_Tobermory%2C_Isle_of_Mull_Cheese_Sgriob-ruadh_Farm_-_hu_-_7900.jpg"
 alt="The cheese barrel">
 $124.99 CAD
@@ -135,40 +128,38 @@ $39.99 CAD
 
 
 <section class="quest">
-  <div class="qa">
-  <h2>Common Cheese Questions</h2>
-  <p><ul>
-  Q: What is the best cheese?
+  <section class="qa">
+  <h2 class="commonQ">Common Cheese Questions</h2>
+  
+  <section class="Q1">Q: What is the best cheese?
   <li>A: Thats a hard question becausse the answer is based off of opinoins.
-  My favorite cheese is blue cheese.</li>
-  Q: Where does cheese come from?
-  <li>A: Cheese is aged milk and it comes from many animals.</li>
-  Q: Does the taste of cheese come from the calcium in the cow's bones?
-  <li>A: Probably not. I don't really know.</li>
-  Q: What is the best thing to combine with cheese?
-  <li>A: This is another question that is a matter of opinoin. Personly I like cheese and crackers.</li>
-  </ul>
-  </div><div class="sign">
-  <label for="question">Ask a question!</label>
+  My favorite cheese is blue cheese.</li></section>
+  <section class="Q2">Q: Where does cheese come from?
+  <li>A: Cheese is aged milk and it comes from many animals.</li></section>
+  <section class="Q3">Q: Does the taste of cheese come from the calcium in the cow's bones?
+  <li>A: Probably not. I don't really know.</li></section>
+  <section class="Q4">Q: What is the best thing to combine with cheese?
+  <li>A: This is another question that is a matter of opinoin. Personly I like cheese and crackers.</li></section>
+  <section class="ask">
+  <label for="Question">Ask a question!</label>
   <input id="Questions" type="text" placeholder="Cheese?">
-  <button id="Questions" type="submit">Submit</button>
-  </p> 
-  </div></section>
+  <button id="Questions" type="button" onclick="alert('We do not like your question, try a better one.)">Submit</button>
+  </section></section></section>
 
 
 
 
-<section class="Login">
-<h4>Become a member:</h4>
-<div><lable for="FName">First Name:</lable>
+<section class="sign">
+<h4>Become a member</h4>
+<div class="FName"><lable for="FName">First Name:</lable>
 <input id="FName" placeholder="John" type="text"> </div>
-<div><label for="LName">Last Name:</label>
+<div class="LName"><label for="LName">Last Name:</label>
 <input id="LName" placeholder="Doah" type="text"></div>
-<div><label for="Email">Email:</label>
+<div class="Email"><label for="Email">Email:</label>
 <input id="Email" placeholder="JohnDoah@mail.com"></div>
-<div><label for="P#">Phone Number:</label>
+<div class="PNum"><label for="P#">Phone Number:</label>
 <input id="P#" placeholder="123-456-7890" type="number"></div>
-<button id="Login" type="submit" style="height: 2rem; width: 5rem;">Login</button>
+<button class="Login" type="button" onclick="alert('Login failed')">Login</button>
 </section>
 </main>
 
@@ -186,6 +177,6 @@ $39.99 CAD
   <h6>(c) copywright of The Cheese Site 10/14/2023</h6>
 </footer>
 </body>
-
+</div>
 </html>
 
