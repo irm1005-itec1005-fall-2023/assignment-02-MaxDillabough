@@ -11,7 +11,21 @@
 }
 
 
+header {
+  display: flex;
+flex-flow: column wrap;
+  font-size: 80%;
+gap: 8%;
+padding: 1%;
+background-color: #e7be3787;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
+.logo {
+border: #caaa4b; 
+ border-style: solid;
+justify-content: left;
+}  
 
 
 main {
@@ -20,6 +34,7 @@ background: linear-gradient(0deg, rgba(255,190,0,1) 0%, rgba(255,245,216,1) 100%
 padding: 1%;
 margin: 1%;
 border-radius: 2%;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .part1 {
@@ -210,8 +225,6 @@ display: block;
   margin: 1%;
   padding: 1%;
   background-color: #fffaad;
-  width: 20rem;
-  height: 2rem;
 }
 
 .Q1 {
@@ -255,8 +268,45 @@ display: block;
  }
 
 
- .login {
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
- }
+
  
+.FName {
+  background-color: #d0c9a851;
+display: flex;
+flex-direction: column;
+}
+
+.LName {
+  background-color: #d0c9a851;
+  display: flex;
+  flex-direction: column;
+}
+
+.Email {
+  background-color: #d0c9a851;
+display: flex;
+flex-direction: column;
+}
+
+.PNum {
+  background-color: #d0c9a851;
+display: flex;
+flex-direction: column;
+}
+
+.Login {
+  height: 2rem; 
+  width: 100%;
+}
+
+
+
+footer{
+  display: flex;
+flex-flow: column wrap;
+  font-size: 80%;
+gap: 8%;
+padding: 1%;
+background-color: #e7be3787;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
